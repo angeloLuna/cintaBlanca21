@@ -1,0 +1,19 @@
+.titulo{
+  border: 1px solid;
+
+  display: inline-block;
+  height: 100px;
+}
+
+.parrafo{
+  border: 1px solid;
+
+  display: block;
+  height: 50px;
+}
+
+.imagen-p{
+  border: 2px solid red;
+  width: 200px;
+  display: block;
+}

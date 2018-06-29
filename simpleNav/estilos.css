@@ -1,0 +1,32 @@
+.header{
+  /*border: solid 1px;*/
+}
+
+.nav{
+  /*border: 1px solid red;*/
+  background: purple;
+}
+
+.lista{
+  /*border: 2px solid blue;*/
+  text-align: right;
+}
+
+li{
+  /*border: solid 1px;*/
+  list-style: none;
+  display: inline-block;
+  margin-right: 80px;
+}
+
+a{
+  font-size: 1.5rem;
+  font-family: Impact;
+  text-decoration: none;
+  color: white;
+}
+
+a: hover {
+  color: red;
+}
+

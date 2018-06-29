@@ -1,0 +1,33 @@
+body{
+  background: #81afef;
+}
+
+h1{
+  /*border: 1px solid;*/
+  text-align: center;
+  font-family: Arial;
+  color: white;
+  font-size: 3rem;
+}
+
+
+
+img{
+  /*border:1px solid red;*/
+  /*Redondea los bordes*/
+  border-radius: 50%;
+
+}
+
+div{
+  /*border: 2px solid pink;*/
+  text-align: center;
+}
+
+p{
+  /*border: 1px solid;*/
+  color: white;
+  font-size: 2rem;
+  font-family: Helvetica;
+}
+

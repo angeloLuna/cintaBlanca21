@@ -1,0 +1,8 @@
+.edificio{
+  border:1px solid;
+  padding-left: 10px;
+}
+
+.habitacion{
+  border:1px solid red;
+}
