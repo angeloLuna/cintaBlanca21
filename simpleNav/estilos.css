@@ -1,32 +1,62 @@
-.header{
-  /*border: solid 1px;*/
+body{
+  font-family: arial,sans-serif;
 }
-
-.nav{
-  /*border: 1px solid red;*/
-  background: purple;
-}
-
 .lista{
-  /*border: 2px solid blue;*/
-  text-align: right;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 1px solid blue; */
 }
-
 li{
-  /*border: solid 1px;*/
+  /* border: 1px solid red; */
+  margin-left: 20px ;
+}
+.cuerpo{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  margin: 0px;
+}
+.google{
+  width: 40%;
+}
+.linkbobo{
+  display: block;
+  margin-left:    20px ;
+  text-decoration: none;
+  color: grey;
+}
+.linkbobo:hover{
+  text-decoration: underline;
+}
+.linknormal{
+    text-decoration: none;
+}
+.linknormal:hover{
+    text-decoration:underline;
+}
+.botones{
+  /* border: 1px solid black; */
+  display: block;
+  text-align: center;
+}
+.boton{
   list-style: none;
   display: inline-block;
-  margin-right: 80px;
+  background: grey;
+  height: 30px;
 }
-
-a{
-  font-size: 1.5rem;
-  font-family: Impact;
-  text-decoration: none;
-  color: white;
+.boton:hover{
+  border: 1px solid black;
+  font-weight: bold;
 }
-
-a: hover {
-  color: red;
+.searchBar{
+  border: 1px solid black;
+  text-align: center;
+  display: block;
 }
-
+.sBar {
+  
+}
