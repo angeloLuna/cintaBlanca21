@@ -9,3 +9,6 @@ let cardDescripcion = document.getElementById("descripcion");
 cardNombre.innerHTML = nombre;
 cardApellido.innerHTML = apellido;
 cardDescripcion.innerHTML = descripcion;
+
+let nombre = document.getElementById("nombre").value;
+
