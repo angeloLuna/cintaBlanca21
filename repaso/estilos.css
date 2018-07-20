@@ -1,0 +1,14 @@
+.img-container{
+  height: 400px;
+}
+
+.img-container .img-up{
+  transform: translateY(-20%) scale(1.5);
+}
+
+.custom-card{
+  background-image: url("http://www.31minutos.cl/wp-content/uploads/2014/02/thumb-juanin.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
